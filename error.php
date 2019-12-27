@@ -1,5 +1,3 @@
-<?php file_put_contents("protocols.txt", $_SERVER['REMOTE_ADDR'] . PHP_EOL, FILE_APPEND); ?>
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
