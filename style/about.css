@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Nunito Sans', sans-serif;
+  background-image: url('../assets/bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+  background-color: black;
+}
+
+h2 {
+  color: white;
+}
+
+hr { 
+  color: white;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+
+header {
+    width: 100%;
+    height: 70px;
+    background-image: linear-gradient(#1C2537, black);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    position: absolute;
+    padding: 3px;
+    margin-left: 2%;
+    margin-top: 10px;
+    color: white;
+}
+
+span {
+    color: white;
+}
+
+ul {
+    width: auto;
+    float: right;
+    margin-top: 8px;
+}
+
+li {
+    display: inline-block;
+    padding: 15px 30px;
+}
+
+a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #d3d3d3;
+    transition: 0.5s;
+}
+
+.box {
+    max-width: 990px;
+    margin: 1em auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #000;
+  float: center;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+hr {
+  color: white;
+}
+
+.disclaimer {
+  font-size: 10px;
+  width: 50%;
+  bottom: 10px;
+}
+
+.whitebox {
+    max-width: 990px;
+    border: 1px solid #6C6E6E;
+    margin: 1em auto;
+    padding: 5px;
+    background-color: #1C2537;
+}
